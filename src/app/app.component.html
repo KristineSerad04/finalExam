@@ -1,0 +1,46 @@
+<div class="container">
+ 
+  <div class="box">
+ 
+    <h1 class="title">{{title}}</h1>
+ 
+  
+    <div class="screen">
+     
+      <h3 class="input">{{data}}</h3>
+      
+       
+    </div>
+ 
+    <div class="button">
+      <input class="input-clear" type="button" (click)="allClear()" value="C">
+      <input class="input-clear" type="button" (click)="calclear()" value="DEL">
+       
+    </div>
+ 
+    <div class="button">
+      <input class="input" type="button" (click)="Number('0')" value="0">
+      <input class="input" type="button" (click)="Number('1')"value="1">
+      <input class="input" type="button" (click)="Number('2')"value="2">
+      <input class="input-oper" type="button" (click)="KeyOperator('*')"value="*">
+    </div>
+    <div class="button">
+      <input class="input" type="button" (click)="Number('3')"value="3">
+      <input class="input" type="button" (click)="Number('4')"value="4">
+      <input class="input" type="button" (click)="Number('5')"value="5">
+      <input class="input-oper" type="button" (click)="KeyOperator('-')"value="-">
+    </div>
+    <div class="button">
+      <input class="input" type="button" (click)="Number('6')"value="6">
+      <input class="input" type="button" (click)="Number('7')"value="7">
+      <input class="input" type="button" (click)="Number('8')"value="8">
+      <input class="input-oper" type="button" (click)="KeyOperator('+')"value="+">
+    </div>
+    <div class="button">
+      <input class="input" type="button" (click)="Number('.')" value=".">
+      <input class="input" type="button" (click)="Number('9')"value="9">
+      <input class="input-oper-divide" type="button" (click)="KeyOperator('/')"value="/">
+      <input class="input-oper" type="button" (click)="calinput()"value="=">
+    </div>
+ 
+  </div>
